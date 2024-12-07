@@ -7,7 +7,7 @@ from auth.application.user.errors import (
 )
 from auth.application.user.ports.identity_provider import IdentityProvider
 from auth.application.user.ports.user_data_gateway import UserDataGateway
-from auth.application.scenarios.account_sign_up.contract import (
+from auth.application.contracts.user import (
     SignUpRequest,
     SignUpResponse,
 )
